@@ -16,7 +16,7 @@ function ConfirmarUsuario(event) {
 
   if (existe) {
     // Usuario encontrado → redirigir a index.html
-    window.location.href = "../index.html";
+    window.location.href = "loginUser/tareas.html";
   } else {
     // Usuario nuevo → lo agregamos al array
     UsuariosRegistrados.push(nuevoUser);
