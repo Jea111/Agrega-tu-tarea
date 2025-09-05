@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agregar Tareas - Login usuarios</title>
+  </head>
+  <body class="bg-dark">
+    <section class="justify-content-between text-center text-primary">
+      <form onsubmit="ConfirmarUsuario(event)">
+        <label>Nombre</label><br />
+        <input type="text" name="nombre" id="nombre" required /><br />
+
+        <label>Contraseña</label><br />
+        <input type="password" name="password" id="password" required /><br />
+
+        <button type="submit">Ingresar</button>
+      </form>
+    </section>
+
+    <script src="./form.js"></script>
+  </body>
+</html>
