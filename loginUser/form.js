@@ -26,6 +26,6 @@ function ConfirmarUsuario(event) {
 
     // Redirigir al formulario de login
     alert("Usuario registrado con éxito. Ahora inicia sesión.");
-    window.location.href = "form.html";
+    window.location.href = "loginUser/tareas.html";
   }
 }
