@@ -2,7 +2,7 @@
 let UsuariosRegistrados = JSON.parse(localStorage.getItem("usuarios")) || [];
 
 function ConfirmarUsuario(event) {
-  event.preventDefault(); // evita recarga
+  event.preventDefault();
 
   const nombre = document.querySelector("#nombre").value;
   const passw = document.querySelector("#password").value;
